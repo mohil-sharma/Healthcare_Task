@@ -1,0 +1,32 @@
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Environment ───────────────────────────────────
+.env
+
+# ── Node / SvelteKit ──────────────────────────────
+node_modules/
+.svelte-kit/
+frontend/build/
+frontend/.env
+
+# ── IDEs ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── macOS ─────────────────────────────────────────
+.DS_Store
+
+# ── Docker volumes ────────────────────────────────
+postgres_data/
